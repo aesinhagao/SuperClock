@@ -32,7 +32,7 @@
     {
         
         case 0:
-            var ele1="url('images/"+config.background_picture+"') fixed no-repeat"
+            var ele1="url('"+config.background_picture+"') fixed no-repeat"
             $('body').css('background',ele1);
             $('body').css('background-size','100% 100%');
             break;
